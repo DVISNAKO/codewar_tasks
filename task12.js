@@ -13,3 +13,11 @@ function isTriangle(a,b,c)
         else
           return false;
 }
+
+
+// ну или простой вариант
+
+function isTriangle(a,b,c)
+{
+   return a + b > c && a + c > b && c + b > a;
+}
