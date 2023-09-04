@@ -8,3 +8,9 @@ function boolToWord( bool ){
       return "No"
     }
    }
+
+   // тернарный 
+
+   function boolToWord( bool ){
+    return bool ? 'Yes':'No';
+  }
